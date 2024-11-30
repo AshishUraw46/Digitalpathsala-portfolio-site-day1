@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@400;500&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-size: 20px;
+    font-family: poppins;
+}
+:root{
+    --navbarcolor :#122954;
+}
+/* Navbar section */
+
+h1{
+    color: rgb(248, 248, 251);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20px;
+    font-size: 0.90rem;
+}
+
+nav{
+    background-color: #122954;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 9vh;
+    font-size: 2rem;
+}
+nav ul{
+    display: flex;
+    
+    /* gap: 25px; */
+}
+nav li{
+    font-family: poppins;
+    font-size: 20px;
+    list-style-type: none;
+    margin-right: 20px;
+    color: white;
+
+}
+nav ul li:hover{
+ cursor: pointer; 
+ text-decoration: underline rgb(255, 255, 255); 
+}
+
+/* section hero */
+.hero-section {
+    display: flex;
+    background-color: black;  
+}
+.hero-section .leftbox{
+    height: 91vh;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ .leftbox p{
+    color: hsl(235, 51%, 75%);
+ }
+ .leftbox h1{
+    font-size: 2.5rem;
+ }
+
+ .leftbox h2{
+    color: white;
+    font-size: 1.90rem;
+    margin-top: -1rem;
+ }
+ .leftbox .smicons{
+    width:8rem;
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .leftbox .smicons img {
+    height: 1.2rem;
+    border: 1px solid white;
+    border-radius: 50%;
+ }
+.smnames{
+    height: 1rem;
+    width: 7rem; 
+    margin-top: -0.5rem; 
+    display: flex; 
+    justify-content: space-evenly;
+ }
+.smnames a{
+    color: hsl(235, 51%, 75%);
+    text-decoration: none;
+    font-size: 0.5rem;
+ }
+
+ .hero-section .rightbox{
+    height: 91vh;
+    width: 50%;
+
+ }
+ .hero-section .rightbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+ }
+.rightbox img {
+    height: 20rem;
+border-radius: 50% 20% / 10% 40%;
+
+}
+.services{
+    color: rgb(188, 194, 245);
+    font-family: poppins;
+    background-color: #07080b;
+    padding-left: 1rem;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+}
+.services div{
+    background-color: rgb(27, 44, 59);
+    height: 16rem;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.services div img{
+    height: 6rem;
+    width: 6rem;
+    border-radius: 3rem;
+}.services p{
+    font-size: 0.70rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.services div h3{
+    color: rgb(239, 239, 239);
+}
+ 
+.service-heaing{
+    cursor: pointer;
+    gap: 0.5rem;
+    background-color: #07080b;
+    color: #ddff00;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
